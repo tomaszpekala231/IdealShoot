@@ -1,0 +1,102 @@
+@media (orientation : landscape) {
+.main-text{
+	padding:4rem 3rem 0 3rem;
+}
+.main-text span{
+	font-size: 1.3rem;
+}
+.main-text h1{
+	font-size: 2rem;
+}
+.main-text p{
+	font-size: 1.2rem;
+}
+}
+@media (min-width: 767px){
+.main-text{
+	padding:12rem 3rem 0 3rem;
+}
+.main-text span{
+	font-size: 1.3rem;
+}
+.main-text h1{
+	font-size: 4rem;
+}
+.main-text p{
+	font-size: 1.3rem;
+}	
+}
+
+@media(max-width: 767px){
+	.main-nav ul{display: none;}
+	.main-nav .logo{display: none;}
+
+}
+@media(min-width: 767px){
+	.open-slide{display: none;}
+
+}
+ /*==== Extra small devices (portrait phones, less than 576px) ====*/
+@media (max-width: 575px){
+
+.main-text{
+	padding:8rem 3rem 0 3rem;
+}
+.main-text span{
+	font-size: 1.3rem;
+}
+.main-text h1{
+	font-size: 3rem;
+}
+.main-text p{
+	font-size: 1.3rem;
+}
+.about h2{
+	font-size: 2rem;
+	padding-top:0;	
+}
+.about .text{
+	padding:0 1rem;
+	font-size: 1rem;
+}
+.blocks{
+	padding-top: 0rem;
+	grid-gap:0;
+}
+.blocks .block-2{
+	max-width: 100%;
+	
+}
+.contact .container{
+	grid-template-areas:
+		'contact-form   contact-form   contact-form'
+		'contact-info-box-1  contact-info-box-1   contact-info-box-1'
+		'contact-info-box-2   contact-info-box-2  contact-info-box-2'
+		;
+}
+.footer-blocks{
+	display: grid;
+	grid-gap:20px;
+	grid-template-columns: 1fr;
+	text-align: center;
+}
+.footer-block-2{
+	padding-left:0;
+}
+
+}
+ /*======= Small devices (landscape phones, 576px and up) =======*/
+@media (min-width: 576px) and (max-width: 767px){
+.contact .container{
+	grid-template-areas:
+		'contact-form   contact-form   contact-form'
+		'contact-info-box-1  contact-info-box-1   contact-info-box-1'
+		'contact-info-box-2   contact-info-box-2  contact-info-box-2'
+		;
+}
+.blocks .block-2{
+	max-width: 100%;
+	
+}
+
+}
