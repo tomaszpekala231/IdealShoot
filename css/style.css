@@ -353,6 +353,7 @@ img{
 	display: grid;
 	grid-gap:20px;
 	grid-template-columns: 1fr 1fr;
+	padding: 0 2rem 3rem 4rem;
 }
 .footer-blocks h3{
 	font-size: 2rem;
