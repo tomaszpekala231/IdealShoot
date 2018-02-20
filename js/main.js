@@ -50,6 +50,7 @@ window.sr = ScrollReveal();
         reset: false,
         origin: 'left',
         opacity: 0,
+		mobile: false
       });
 
       sr.reveal('.block-2', {
@@ -57,14 +58,16 @@ window.sr = ScrollReveal();
         reset: false,
         opacity: 0,
         distance: '100px',
-        origin: 'right'
+        origin: 'right',
+		mobile: false
       });
      
       sr.reveal('.btn-submit', {
         duration: 1200,
         reset: false,
         origin: 'bottom',
-        scale: 0.5
+        scale: 0.5,
+		mobile: false
       });
       
        sr.reveal('.boxes-testimonials', {
@@ -72,5 +75,6 @@ window.sr = ScrollReveal();
         reset: false,
         origin: 'right',
         distance: '300px',
-        scale: 1
+        scale: 1,
+		mobile: false
       });
